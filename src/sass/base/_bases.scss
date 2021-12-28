@@ -1,0 +1,32 @@
+:root {
+  --app-height: 100%
+}
+
+html {
+  font-size: var(--root-font-size);
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--base-font-family);
+  font-size: var(--base-font-size);
+  font-variant-numeric: slashed-zero;
+  font-weight: var(--base-font-weight);
+  line-height: var(--base-line-height);
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+html,
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

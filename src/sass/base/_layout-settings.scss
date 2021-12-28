@@ -1,0 +1,20 @@
+.page-wrapper {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.container {
+  @include container;
+}
+
+.row {
+  @include row;
+}
+
+.col {
+  @include col;
+}
+
+.clearfix {
+  @include clr;
+}

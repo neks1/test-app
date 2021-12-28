@@ -1,0 +1,34 @@
+=clr
+  &::after
+    content: ""
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+
+=row
+  margin-left: -15px
+  margin-right: -15px
+
+=col
+  padding-left: 15px
+  padding-right: 15px
+
+=container
+  +col
+  width: 100%
+  @media (min-width: 768px)
+    margin: 0 auto
+    max-width: 750px
+  @media (min-width: 992px)
+    max-width: 970px
+  @media (min-width: 1200px)
+    margin: 0 auto
+    max-width: 1170px
+  @media (min-width: 1440px)
+    max-width: 1440px
+
+=flex-def
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap

@@ -1,0 +1,51 @@
+<div id="fonts" class="fonts col">
+  <div class="fonts__title_tabs">
+    <h2 class="fonts__title">Please select one font</h2>
+    <div id="fonts-tablist" class="fonts__tablist">
+      <button aria-selected="true" aria-controls="my-fonts-block" id="my-fonts-tab" class="fonts__tab_btn">
+        My fonts
+      </button>
+
+      <button aria-selected="false" aria-controls="buy-fonts-block" id="buy-fonts-tab" class="fonts__tab_btn">
+        Buy fonts
+      </button>
+    </div>
+  </div>
+
+  <div id="fonts-blocks" class="fonts__blocks">
+    <div id="my-fonts-block" aria-labelledby="my-fonts-tab" class="fonts__block" aria-hidden="false">
+      <div class="fonts__checkbox_row fonts__checkbox_row-left">
+        <div class="fonts__switch">
+          <input type="radio" id="my-fonts-checkbox-1" name="my-fonts" />
+          <label class="fonts__checkbox" for="my-fonts-checkbox-1">Merriweather project is led by Sorkin Type.</label>
+          <div class="fonts__checkbox_block">
+            <span class="fonts__checkbox_title">M</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="fonts__checkbox_row fonts__checkbox_row-right">
+        <div class="fonts__switch">
+          <input type="radio" id="my-fonts-checkbox-2" name="my-fonts" checked/>
+          <label class="fonts__checkbox" for="my-fonts-checkbox-2">Roboto doesn't compromise, allowing letters.</label>
+          <div class="fonts__checkbox_block">
+            <span class="fonts__checkbox_title">R</span>
+          </div>
+        </div>
+        <div class="fonts__switch">
+          <input type="radio" id="my-fonts-checkbox-3" name="my-fonts"/>
+          <label class="fonts__checkbox" for="my-fonts-checkbox-3">Noto Sana covers over 30 scripts.</label>
+          <div class="fonts__checkbox_block">
+            <span class="fonts__checkbox_title">Ns</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="buy-fonts-block" aria-labelledby="buy-fonts-tab" class="fonts__block" aria-hidden="true">
+      <div class="fonts__checkbox_no-fonts">
+        <p>Google Fonts makes it easy to bring personality and performance to your websites and products. Our robust catalog of open-source fonts and icons, makes it easy to integrate expressive type and icons seamlessly—no matter where you are in the world.</p>
+      </div>
+    </div>
+  </div>
+</div>
